@@ -4,11 +4,18 @@ import {GrTwitter} from "react-icons/gr"
 import Link from 'next/link'
 import {BsDiscord} from "react-icons/bs"
 import {FaFacebookF} from "react-icons/fa"
+import Image from 'next/image'
+import FooterImage from "@/assets/images/footer.png"
 import {BsYoutube} from "react-icons/bs"
 export default function Footer() {
   return (
     <div className={`${styles.footer}`}>
-         <img src="/footer.png" className={styles.overlay} alt="bg-footer"/>
+         <Image
+  src={FooterImage}
+  alt="bg-footer"
+ 
+  className={styles.overlay}
+/>
     <div className={`flex flex-col items-center gap-y-6 justify-center`}>
        
 <div className="flex justify-center items-center gap-x-6">

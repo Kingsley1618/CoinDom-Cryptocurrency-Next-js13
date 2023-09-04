@@ -4,7 +4,10 @@ import {FaWallet} from "react-icons/fa"
 import {FaPencilRuler} from "react-icons/fa"
 import {AiTwotoneThunderbolt} from "react-icons/ai"
 import {FaSatelliteDish} from "react-icons/fa"
+import Hand from "@/assets/images/hand.png"
 import {FaHorseHead} from "react-icons/fa"
+import Image from 'next/image'
+
 import {AiFillCrown} from "react-icons/ai"
 export default function WhyUs() {
   return (
@@ -42,8 +45,13 @@ SELECT YOUR QUANTITY</h1>
 
 
 </div>
-<div className="xl:max-w-[70%] max-w-[100%] text-center">
-<img src ="/hand.png" alt="hand-img" className="xl:w-[100%] lg:max-w-[70%] md:max-w-[50%] max-w-[60%] block mx-auto"/>
+<div className="xl:max-w-[70%] w-[60%] text-center">
+<Image
+  src={Hand}
+  alt="hand-img"
+  layout="responsive" // Use "responsive" for responsive images
+  className="xl:w-[100%] lg:max-w-[80%] md:max-w-[50%] w-[100%] block mx-auto"
+/>
 </div>
 <div className="flex flex-col w-[100%] gap-y-8">
 
