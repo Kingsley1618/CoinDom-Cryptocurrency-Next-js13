@@ -36,7 +36,7 @@ useEffect(() => {
     // Remove the scroll event listener when the component unmounts
     
   }
-}, [window.scrollY]);
+}, []);
 
   return (
     <>

@@ -5,7 +5,7 @@ async function Coins({params}) {
   return (
   <>
    {coins.map((coin)=> {
-   if(coin.id === params.id){ return <div className="text-white my-[60px] flex flex-col md:flex-row md:divide-x-2 divide-x-0 md:divide-y-0 divide-y-2 max-w-[95%] w-[100%] mx-auto">
+   if(coin.id === params.id){ return <div key = {coin.id} className="text-white my-[60px] flex flex-col md:flex-row md:divide-x-2 divide-x-0 md:divide-y-0 divide-y-2 max-w-[95%] w-[100%] mx-auto">
     <div className="flex flex-col gap-y-4 basis-1/3 justify-center items-center">
 <img src ={coin.image} alt="coin-image" className="max-w-[200px] h-[200px]"/>
 <div className="text-[27px] font-bold">{coin.name}</div>
