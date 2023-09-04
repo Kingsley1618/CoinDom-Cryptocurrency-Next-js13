@@ -15,7 +15,7 @@ export default function WhyUs() {
         <h1 className="text-[70px] mt-[80px] text-center font-bold"><span className="text-white">WHY</span> <span className={styles.choose}>CHOOSE US</span></h1>
     
     <div className="flex xl:flex-row flex-col items-center xl:space-x-8 mt-[100px] xl:space-y-0 space-y-6 space-x-0  mx-auto justify-center" style = {{width:"90%"}}>
-<div className="flex flex-col w-[100%] gap-y-8">
+<div className="flex flex-col w-[100%] gap-y-5">
 
 <div className={`${styles.card} gap-x-4 md:py-6 py-3 px-[10px]`}>
 <FaWallet className={`${styles.icons} text-white text-[60px] `}/>
@@ -53,7 +53,7 @@ SELECT YOUR QUANTITY</h1>
   className="xl:w-[100%] lg:max-w-[80%] md:max-w-[50%] w-[100%] block mx-auto"
 />
 </div>
-<div className="flex flex-col w-[100%] gap-y-8">
+<div className="flex flex-col w-[100%] gap-y-5">
 
 <div className={`${styles.card} gap-x-4 md:py-6 py-3 px-[10px]`}>
 <FaSatelliteDish className={`${styles.icons} text-white text-[60px]`}/>
