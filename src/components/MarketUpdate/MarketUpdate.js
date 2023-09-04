@@ -66,7 +66,7 @@ export default function MarketUpdate({data}) {
         pageSize={pageSize}
         onChange={currentPage.handleChangePage}
         showSizeChanger={false}
-        style={{ backgroundColor:"white",  marginTop: '3px', marginBottom:"10px", textAlign: 'center', fontSize:"20px", padding:"10px", borderRadius:"10px", color:"white" }}
+        style={{marginTop: '3px', marginBottom:"10px", fontSize:"15px",  }}
        
      />
     </section>
