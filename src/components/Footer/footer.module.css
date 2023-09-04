@@ -1,0 +1,77 @@
+.facebook {
+    background-color: white;
+    padding:10px;
+    border-radius: 50%;
+    font-size: 40px;
+   cursor: pointer;
+}
+.facebook:hover {
+    background-image: linear-gradient(25deg, #2600fc, #ff00ea);
+    padding:10px;
+    border-radius: 50%;
+    transition: all 0.4s ease-in-out;
+}
+
+.icon {
+    color:white;
+    font-size:34px;
+    cursor: pointer;
+}
+.icon:hover {
+    color: rgb(147, 0, 243);
+    transition: all 0.4s ease-in-out;
+}
+
+.footertext {
+    color:white;
+    font-size:18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.footertext:hover {
+    background-clip: text;
+    -webkit-background-clip: text;
+    color:transparent;
+    background-image: linear-gradient(25deg, #2600fc, #ff00ea);
+    font-size:18px;
+    opacity:0.6;
+    transition: all 0.2s ease-in-out;
+}
+.footer {
+    position:relative;
+    align-items: center;
+    display:flex;
+    margin-top:20px;
+    justify-content: center;
+    height:300px;
+}
+
+.overlay {
+    position:absolute;
+    top:0px;
+    left:0px;
+    bottom:0px;
+    right:0px;
+    max-width:80%;
+    margin:auto;
+    display:block;
+  width:100%;
+    z-index:-1;
+    
+  
+}
+
+
+
+@media screen and (max-width:600px) {
+
+    .footer {
+        position:relative;
+        align-items: center;
+        display:flex;
+        margin-top:20px;
+        justify-content: center;
+        height:200px;
+    }
+}

@@ -1,0 +1,6 @@
+.crypto {
+    background-clip: text;
+    -webkit-background-clip: text;
+    color:transparent;
+    background-image: linear-gradient(25deg, #2600fc, #ff00ea);
+}

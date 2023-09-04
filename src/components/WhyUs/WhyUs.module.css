@@ -1,0 +1,19 @@
+.choose {
+    background-image: linear-gradient(25deg, #2600fc, #ff00ea);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color:transparent;
+}
+
+.card {
+display:flex;
+justify-content: space-evenly;
+
+color:white;
+max-width:100%;
+width:100%;
+background-color: rgba(255, 255, 255, 0.05);
+
+border: 1px solid rgba(131, 131, 131, 0.25);
+border-radius:20px;
+}

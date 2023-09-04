@@ -1,0 +1,17 @@
+.discord {
+    background-clip: text;
+    -webkit-background-clip: text;
+    color:transparent;
+    background-image: linear-gradient(25deg, #2600fc, #ff00ea);
+}
+
+.text {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.btn {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    background-image:  linear-gradient(25deg, #2600fc, #ff00ea);
+    border-radius: 40px;
+}
