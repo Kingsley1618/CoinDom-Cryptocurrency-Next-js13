@@ -66,8 +66,17 @@ export default function MarketUpdate({data}) {
         pageSize={pageSize}
         onChange={currentPage.handleChangePage}
         showSizeChanger={false}
-        style={{marginTop: '3px', marginBottom:"10px", fontSize:"15px",  }}
        
+        itemRender={(page, type, originalElement) => {
+          if (type === 'page') {
+            return (
+              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'white' }}>
+                <a href="#">{page}</a>
+              </div>
+            );
+          }
+          return originalElement;
+        }}
      />
     </section>
   )
