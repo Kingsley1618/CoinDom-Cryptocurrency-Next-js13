@@ -70,7 +70,11 @@ export default function MarketUpdate({data}) {
         itemRender={(page, type, originalElement) => {
           if (type === 'page') {
             return (
-              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'white' }}>
+              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'white',width: '30px', 
+              height: '30px', 
+              borderRadius: '50%', 
+              cursor: 'pointer', 
+              margin: '5px' }}>
                 <a href="#">{page}</a>
               </div>
             );
